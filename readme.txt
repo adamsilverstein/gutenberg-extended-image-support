@@ -12,7 +12,7 @@ Provides HEIF/HEIC image support for Gutenberg's client-side media processing.
 
 == Description ==
 
-This plugin enables HEIF/HEIC image format support in Gutenberg's experimental client-side media processing feature.
+This plugin enables HEIF/HEIC image format support in Gutenberg's client-side media feature.
 
 HEIF (High Efficiency Image Format) and HEIC (High Efficiency Image Coding) are modern image formats that offer superior compression compared to JPEG while maintaining high image quality. These formats are commonly used by Apple devices for photos.
 
@@ -24,9 +24,8 @@ By distributing this as a separate plugin with LGPL-3.0 licensing, users who nee
 
 **Requirements**
 
-* WordPress 6.4 or higher
-* Gutenberg plugin with experimental media processing enabled
-* A browser that supports WebAssembly
+* WordPress 7.0 or higher
+* A browser that supports the client side media feature
 
 == Installation ==
 
