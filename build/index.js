@@ -1,1 +1,1 @@
-void 0!==window.gutenbergHeifSupport&&console.log("Gutenberg HEIF Support: WASM module available at",window.gutenbergHeifSupport.wasmUrl);
+window.gutenbergHeifSupport;

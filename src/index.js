@@ -15,11 +15,9 @@
 // This file intentionally left mostly empty.
 // The plugin's functionality is provided through the PHP file which:
 // 1. Registers the HEIF support filter
-// 2. Makes the vips-heif.wasm binary accessible
-// 3. Enqueues necessary dependencies
+// 2. Makes the vips-heif.wasm binary accessible via wp_localize_script
 
 if ( typeof window.gutenbergHeifSupport !== 'undefined' ) {
-	// Plugin is loaded and WASM URL is available
-	// eslint-disable-next-line no-console
-	console.log( 'Gutenberg HEIF Support: WASM module available at', window.gutenbergHeifSupport.wasmUrl );
+	// Plugin is loaded and WASM URL is available.
+	// This confirms the plugin is properly initialized.
 }
