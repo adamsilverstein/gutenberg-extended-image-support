@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Gutenberg HEIF Support
  * Plugin URI: https://github.com/WordPress/gutenberg
- * Description: Provides HEIF/HEIC image support for Gutenberg's client-side media processing. This plugin includes the vips-heif.wasm module which is licensed under LGPL-3.0.
+ * Description: Provides the vips-heif.wasm module for HEIF/HEIC image support in Gutenberg's client-side media processing. Requires Gutenberg with experimental media processing feature enabled.
  * Version: 1.0.0
  * Author: WordPress Contributors
  * Author URI: https://github.com/WordPress/gutenberg/graphs/contributors
@@ -61,7 +61,7 @@ function gutenberg_heif_support_enqueue_scripts() {
 		$asset = require $asset_file;
 	} else {
 		$asset = array(
-			'dependencies' => array( 'wp-vips' ),
+			'dependencies' => array(),
 			'version'      => GUTENBERG_HEIF_SUPPORT_VERSION,
 		);
 	}

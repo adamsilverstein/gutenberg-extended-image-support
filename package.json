@@ -13,6 +13,6 @@
 		"@wordpress/scripts": "^28.0.0"
 	},
 	"dependencies": {
-		"@wordpress/vips": "*"
+		"@babel/runtime": "^7.28.6"
 	}
 }
