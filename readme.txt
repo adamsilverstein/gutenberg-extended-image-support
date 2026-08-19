@@ -8,11 +8,15 @@ Stable tag: 1.0.0
 License: LGPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/lgpl-3.0.html
 
-Provides HEIF/HEIC image support for Gutenberg's client-side media processing.
+No longer needed or supported. This plugin is retired and will not receive further updates.
 
 == Description ==
 
-This plugin enables HEIF/HEIC image format support in Gutenberg's client-side media feature.
+**This plugin is retired. It is no longer needed or supported, and will not receive further updates.**
+
+The repository has been archived. Anyone still running this plugin can safely deactivate and delete it.
+
+This plugin enabled HEIF/HEIC image format support in Gutenberg's client-side media feature.
 
 HEIF (High Efficiency Image Format) and HEIC (High Efficiency Image Coding) are modern image formats that offer superior compression compared to JPEG while maintaining high image quality. These formats are commonly used by Apple devices for photos.
 
@@ -52,6 +56,7 @@ The HEIF decoding library (libheif) is licensed under LGPL-3.0, which is not com
 == Changelog ==
 
 = 1.0.0 =
+* Final release. This plugin is retired and no longer supported.
 * Initial release
 * Provides vips-heif.wasm module for HEIF/HEIC image processing
 * Integrates with Gutenberg's experimental media processing feature
